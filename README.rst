@@ -1,4 +1,4 @@
-Disable the Plone feature on indexing contents of File content types
+Disable the Plone feature on indexing contents of File content types.
 
 Use case
 ========
@@ -13,12 +13,13 @@ Or: you really don't want that Plone index contents fo your files.
 How it works
 ============
 
-This products is an hack that will monkey-patch the default Plone ATFile (with or without ATBlob support)
-disabling the ``searchable`` settings.
+This products is an hack that will monkey-patch the default Plone file content type (whatever it is) disabling the
+feature that search inside file binary content.
 
 This is automatically enabled in development mode while it's disabled in production mode.
 
-On production mode you can force the indexing to stop working, adding the ``DISABLE_FILE_INDEXING`` environment var::
+On production mode you can force the indexing to stop working, adding the ``DISABLE_FILE_INDEXING``
+environment var::
 
     [instance]
     ...
@@ -40,10 +41,12 @@ In the same way you can keep the indexing active while in development mode::
     
     While it will disabled in production mode, it will be enabled if you run a debug/emergency instance.
 
-TODO
-====
+Compatibility
+=============
 
-Plone 5/plone.app.contenttypes support
+* Plone 3 (with or without blob support)
+* Plone 4 (with default file implementation or with plone.app.contenttypes)
+* Plone 5
 
 Authors
 =======
