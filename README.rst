@@ -8,7 +8,7 @@ File contents and then you need to perform some actions like "*Update catalog*" 
 
 It will be really slow, but probably the indexed files are not the reason why you are performing the action.
 
-Or: you really don't want that Plone index contents fo your files.
+Or: you really don't want that Plone index contents of your files.
 
 How it works
 ============
