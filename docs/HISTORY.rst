@@ -1,10 +1,11 @@
 Changelog
 =========
 
-0.1.1 (unreleased)
+0.2.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Added support for plone.app.contenttypes
+  [keul]
 
 
 0.1.0 (2014-05-07)

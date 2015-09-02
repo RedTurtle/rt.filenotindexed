@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1.1.dev0'
+version = '0.2.0.dev0'
 
 setup(name='rt.filenotindexed',
       version=version,
@@ -32,6 +32,7 @@ setup(name='rt.filenotindexed',
           'setuptools',
           #'Products.ATContentTypes',
           #'plone.app.blob',
+          #'plone.app.contenttypes',
       ],
       entry_points="""
       # -*- Entry points: -*-

@@ -4,7 +4,7 @@ Use case
 ========
 
 You are developing in a Plone environment with a production Data.fs (and blobs) that contains *a lot* of
-File contents and then you need to perform some actions like "Update catalog" or "Clean and Rebuild".
+File contents and then you need to perform some actions like "*Update catalog*" or "*Clean and Rebuild*".
 
 It will be really slow, but probably the indexed files are not the reason why you are performing the action.
 
